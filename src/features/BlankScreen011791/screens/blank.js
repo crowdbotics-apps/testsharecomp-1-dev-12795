@@ -47,6 +47,12 @@ export default class Blank extends React.Component {
         style={styles.Button_7}
         onPress={() => alert("Pressed!")}
       />
+      <Button
+        title="Do Not Press me!"
+        color="#3366FF"
+        style={styles.Button_7}
+        onPress={() => alert("Pressed!")}
+      />
     </View>
   )
 }
