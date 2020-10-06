@@ -29,7 +29,7 @@ export default class Blank extends React.Component {
     <View style={styles.View_1}>
       <TextInput
         placeholder="Sample text input placeholder"
-        editable={true}
+        editable={false}
         style={styles.TextInput_3}
         value={this.state.TextInput_3}
         onChangeText={nextValue => this.setState({ TextInput_3: nextValue })}
